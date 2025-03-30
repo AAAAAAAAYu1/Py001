@@ -21,7 +21,10 @@ class GetBaiduMapInfo:
         self.set = "&page_size=20&scope=1&city_limit=false&region="  # scope=1扩大基础结果
         self.params = {'page_num': 0}
         self.items = []
-        self.output_csv = BASE_DIR / '云浮市美食数据.csv'
+        self.output_csv = BASE_DIR / '美食数据.csv'    
+
+
+
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
         }
