@@ -14,8 +14,8 @@ BASE_DIR = Path(__file__).parent
 
 class GetBaiduMapInfo:
     def __init__(self):
-        self.Ak = "GUZU36zehRvRCT1l9D68czHSi7SkT9XP"
-        self.city = "云浮市"
+        self.Ak = "" #填入AK       
+        self.city = ""   #填入你想爬取的城市     
         self.keywords_list = ["美食", "餐厅", "饭店", "餐馆", "小吃", "火锅", "烧烤", "快餐", "中餐厅"]  # 多关键词
         self.url = "http://api.map.baidu.com/place/v2/search?query="
         self.set = "&page_size=20&scope=1&city_limit=false&region="  # scope=1扩大基础结果
